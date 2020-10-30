@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.header{
+    background-image: url(../Domaci/images/pozadina.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.navigacija{     
+    float: right;
+    margin-top: 25px;
+}
+.navigacija li{
+    display: inline-block;
+}
+.navigacija li a{
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+.navigacija li a:hover{
+    background-color: white;
+    color: black;
+}
+.logo img{
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 15px;
+}
+.unutrasnji_header{
+    max-width: 1200px;
+    margin: auto;
+}
+.naslov{
+    height: 100%;
+    display: table-cell;
+}
+.naslov h1{
+    color: whitesmoke;
+    font-size: 50px;
+    padding: 10px 70px;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    position: absolute;
+    display: block;
+    padding: 60px 0;
+    box-sizing: border-box;
+}
+.inner_footer{
+    display: block;
+    margin: 0 auto;
+    width: 1800px;
+    height: 100%;
+}
+.inner_footer .footer_third{
+    width:  100%;
+    margin-right: 10px;
+    float: left;
+    height: 100%;
+}
+.inner_footer .footer_third h1{
+    font-size: 25px;
+    color: white;
+    display: table-cell;
+    width: 100%;
+    padding: 0 20px;
+}
+.inner_footer .footer_third a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0 20px;
+}
+.inner_footer .footer_third a li{
+    display: table-cell;
+    height: 100%;
+    color: white;
+    font-size: 20px;
+}
